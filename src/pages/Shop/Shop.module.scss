@@ -1,0 +1,52 @@
+@import './../styles.scss';
+
+.shop {
+	@include page;
+
+	.container {
+		@include container;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		> {
+			h1 {
+				margin-top: 70px;
+				margin-bottom: 70px;
+			}
+		}
+
+		.sort {
+			margin-left: auto;
+			margin-bottom: 20px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+			@media (max-width: 426px) {
+				grid-template-columns: 1fr;
+				justify-content: stretch;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.list {
+			margin: 50px 0;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 30px;
+
+			@media (max-width: 768px) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			@media (max-width: 377px) {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.pagination {
+			margin-top: 100px;
+			align-self: center;
+		}
+	}
+}

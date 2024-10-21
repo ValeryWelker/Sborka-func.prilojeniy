@@ -1,0 +1,13 @@
+.wrapper {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+  position: relative;
+  top: 80px;
+
+  h2 {
+    text-align: left;
+    margin-bottom: 92px;
+  }
+}

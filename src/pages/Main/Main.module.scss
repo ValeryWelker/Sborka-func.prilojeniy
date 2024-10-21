@@ -1,0 +1,36 @@
+@import "./../styles.scss";
+
+.main {
+  @include page;
+
+  .container {
+    @include container;
+
+    .shopItem {
+      width: 100%;
+      margin-top: 70px;
+      min-height: 500px;
+      position: relative;
+    }
+
+    .similar {
+      margin-top: 130px;
+
+      > {
+        h2 {
+          margin-bottom: 70px;
+        }
+      }
+
+      .list {
+        display: flex;
+        gap: 2rem;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

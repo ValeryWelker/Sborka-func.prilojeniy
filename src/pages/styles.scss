@@ -1,0 +1,12 @@
+@mixin page {
+  width: 100%;
+  flex: 1 0 auto;
+  position: relative;
+  top: 80px;
+}
+
+@mixin container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,57 @@
+.formfield {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .input {
+    width: 100%;
+    padding-bottom: 23px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #868686;
+    border: 1px solid transparent;
+    outline: transparent;
+    border-bottom: 1px solid #000;
+    transition: all 0.25s ease;
+  }
+
+  .errorMessage {
+    font-size: 13px;
+    color: red;
+    padding-top: 10px;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      object-position: center center;
+
+      svg {
+        transition: all 0.5s ease;
+      }
+    }
+  }
+
+  &.active {
+    width: 100%;
+
+    .inputActive {
+      // width: 100%;
+      border-bottom: 1px solid rgb(16, 16, 191);
+    }
+  }
+}

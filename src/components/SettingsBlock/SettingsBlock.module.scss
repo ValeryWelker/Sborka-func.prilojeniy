@@ -1,0 +1,19 @@
+.settings {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: all 0.6s ease;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main {
+    width: 100%;
+  }
+}

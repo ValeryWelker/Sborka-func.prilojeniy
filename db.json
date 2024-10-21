@@ -1,0 +1,402 @@
+{
+  "shopItems": [
+    {
+      "id": 1,
+      "image": "https://static.bershka.net/4/photos2/2022/I/0/1/p/7603/777/743/688895d186aac49e34b49dfb0610d554-7603777743_2_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Футболка LIGHT",
+      "price": 5,
+      "category": "tshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 2,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/7600/443/251/003ea464fc253af0fc51f898cf620aa0-7600443251_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Футболка TIGER",
+      "price": 7,
+      "category": "tshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 3,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/2603/660/251/efb6f9723757326c372b4f731691c22b-2603660251_2_2_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Футболка ROSE",
+      "price": 4,
+      "category": "tshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 4,
+      "image": "https://static.bershka.net/4/photos2/2022/I/0/1/p/3969/326/251/4a22474a9acc62713ffbe8eae6b26882-3969326251_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Топ WHITE",
+      "price": 10,
+      "category": "top",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 5,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/2365/111/001/36a0ba709de84f544eb557401cc171d5-2365111001_2_2_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Футболка WHITE",
+      "price": 8,
+      "category": "tshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 6,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/2365/111/001/84baa8d97f47a0f906fb22d8041a5b35-2365111001_2_6_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Футболка BLACK",
+      "price": 7.6,
+      "category": "tshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 7,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/b/4551/631/526/BS/BS/ac161fc4a9f97fb5a36cc4c2ce8c8083-4551631526_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Купальник KAIF",
+      "price": 12,
+      "category": "swimwear",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 8,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/b/4205/631/630/BS/BS/8b2fb8b593aa7e8b073deff1049e8e66-4205631630_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Купальник FLOW",
+      "price": 15,
+      "category": "swimwear",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 9,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/b/4201/631/612/BS/BS/7711be93049363b6617f939e3380bc3e-4201631612_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Купальник BOMB",
+      "price": 9,
+      "category": "swimwear",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 10,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/7082/111/002/fec4cfe59cb17fd030261a487071d1c6-7082111002_2_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Свитшот WHITE",
+      "price": 10,
+      "category": "sweatshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 11,
+      "image": "https://static.bershka.net/4/photos2/2022/V/0/1/p/7082/111/002/d3999f3fd65fa57451a454422c1b2b54-7082111002_2_2_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Свитшот BLACK",
+      "price": 11,
+      "category": "sweatshirts",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 12,
+      "image": "https://static.bershka.net/4/photos2/2022/I/0/1/p/7603/777/251/0b45baa9beec7b2fc593e8a0f58860a8-7603777251_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Топ NICE",
+      "price": 12,
+      "category": "top",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 13,
+      "image": "https://static.bershka.net/4/photos2/2022/I/0/1/p/3969/326/612/b410fe72c72c878a77797a6bbed961b5-3969326612_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Топ VIOL",
+      "price": 13,
+      "category": "top",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    },
+    {
+      "id": 14,
+      "image": "https://static.bershka.net/4/photos2/2022/I/0/1/p/3969/326/612/b410fe72c72c878a77797a6bbed961b5-3969326612_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmedium",
+      "title": "Топ OPA",
+      "price": 14,
+      "category": "top",
+      "sizes": ["s", "m", "l", "xl"],
+      "colors": ["brown", "gray", "red", "yellow"]
+    }
+  ],
+  "tickets": [
+    {
+      "id": 2,
+      "title": "SECOND",
+      "size": 10,
+      "count": 4
+    }
+  ],
+  "orders": [
+    {
+      "name": "DENIS GAREEV",
+      "email": "a83@gmail.com",
+      "phone": "6564645646464",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "gfd",
+      "home": "54",
+      "apartment": "4",
+      "clothes": [
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/JsmZnyY/one.png",
+          "title": "Футболка USA",
+          "price": 1,
+          "count": 1,
+          "color": "brown",
+          "size": "s"
+        }
+      ],
+      "totalAmount": 1,
+      "orderBy": "o@mail.ru",
+      "createdAt": "2022-05-13T14:22:17.540Z",
+      "id": 1
+    },
+    {
+      "name": "DENIS GAREEV",
+      "email": "anon8733@gmail.com",
+      "phone": "76567575757",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "fsfsd",
+      "home": "3",
+      "apartment": "3",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": 1,
+          "color": "brown",
+          "size": "s"
+        }
+      ],
+      "totalAmount": 2,
+      "orderBy": "o@mail.ru",
+      "createdAt": "2022-05-13T14:28:36.920Z",
+      "id": 2
+    },
+    {
+      "name": "DENIS GAREEV",
+      "email": "anon8733@gmail.com",
+      "phone": "6747474",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "fs",
+      "home": "fs",
+      "apartment": "dsf",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": 1,
+          "color": "brown",
+          "size": "s"
+        }
+      ],
+      "totalAmount": 2,
+      "orderBy": "o@mail.ru",
+      "createdAt": "2022-05-13T14:37:49.523Z",
+      "id": 3
+    },
+    {
+      "name": "S",
+      "email": "anon8733@gmail.com",
+      "phone": "75678686786",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "64g",
+      "home": "dgd",
+      "apartment": "dfgd",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": "20",
+          "color": "gray",
+          "size": "s"
+        },
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/JsmZnyY/one.png",
+          "title": "Футболка USA",
+          "price": 1,
+          "count": 1,
+          "color": "yellow",
+          "size": "s"
+        }
+      ],
+      "totalAmount": 41,
+      "orderBy": "s@mail.ru",
+      "createdAt": "2022-05-19T12:52:47.278Z",
+      "id": 4
+    },
+    {
+      "name": "Den",
+      "email": "hoooo@mail.com",
+      "phone": "89543535354",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "fsdfdsfs",
+      "home": "sfddsfs",
+      "apartment": "sdfsfs",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": 1,
+          "color": "gray",
+          "size": "m"
+        }
+      ],
+      "totalAmount": 2,
+      "orderBy": "m@mail.com",
+      "createdAt": "2022-06-12T18:24:42.591Z",
+      "id": 5
+    },
+    {
+      "name": "Den",
+      "email": "l@mail.com",
+      "phone": "76757657575",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "fdsfs",
+      "home": "dsfs",
+      "apartment": "sdfs",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": 1,
+          "color": "gray",
+          "size": "m"
+        }
+      ],
+      "totalAmount": 2,
+      "orderBy": "aaa@mail.ru",
+      "createdAt": "2022-06-12T18:46:48.048Z",
+      "id": 6
+    },
+    {
+      "name": "ddd",
+      "email": "l@mail.com",
+      "phone": "85755765757",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "ds",
+      "home": "5",
+      "apartment": "3",
+      "clothes": [
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/JsmZnyY/one.png",
+          "title": "Футболка USA",
+          "price": 1,
+          "count": 1,
+          "color": "gray",
+          "size": "s"
+        },
+        {
+          "id": 6,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Футболка USA",
+          "price": 6,
+          "count": "5",
+          "color": "brown",
+          "size": "l"
+        },
+        {
+          "id": 4,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Пальто USA",
+          "price": 4,
+          "count": 1,
+          "color": "brown",
+          "size": "s"
+        }
+      ],
+      "totalAmount": 35,
+      "orderBy": "aaa@mail.ru",
+      "createdAt": "2022-06-12T18:50:04.428Z",
+      "id": 7
+    },
+    {
+      "name": "lol",
+      "email": "m@mail.com",
+      "phone": "87868768686",
+      "country": "Россия",
+      "city": "СПБ",
+      "street": "fsd",
+      "home": "fdsfs",
+      "apartment": "dsfs",
+      "clothes": [
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/FqGRxWN/two.png",
+          "title": "Купальник Glow",
+          "price": 2,
+          "count": 1,
+          "color": "red",
+          "size": "l"
+        }
+      ],
+      "totalAmount": 1.8,
+      "orderBy": "aaa@mail.ru",
+      "createdAt": "2022-06-12T20:05:31.969Z",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "s@mail.ru",
+      "password": "$2a$10$SjlLTfIbmilnFtBbl697n.LQftPsXVCLPmSKyO0P6EExFprUIbKG.",
+      "username": "Second",
+      "orders": [
+        {
+          "clothes": [
+            {
+              "id": 2,
+              "image": "https://i.ibb.co/FqGRxWN/two.png",
+              "title": "Купальник Glow",
+              "price": 2,
+              "count": "20",
+              "color": "gray",
+              "size": "s"
+            },
+            {
+              "id": 1,
+              "image": "https://i.ibb.co/JsmZnyY/one.png",
+              "title": "Футболка USA",
+              "price": 1,
+              "count": 1,
+              "color": "yellow",
+              "size": "s"
+            }
+          ],
+          "totalAmount": 41,
+          "createdAt": "2022-05-19T12:52:47.278Z",
+          "id": "ms9tPS9hjIXROUMLfoWvs"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

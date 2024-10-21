@@ -1,0 +1,65 @@
+.team {
+	width: 100%;
+
+	.container {
+		max-width: 1140px;
+		margin: 0 auto;
+		padding: 0 15px;
+
+		.feature {
+			display: grid;
+			grid-template-columns: 3fr 1fr;
+			grid-template-rows: 1fr;
+			gap: 40px;
+
+			@media screen and (max-width: 1200px) {
+				grid-template-columns: 1fr;
+				grid-template-rows: 2fr;
+			}
+
+			.left {
+				flex: 1;
+				display: flex;
+
+				img {
+					width: 100%;
+					object-fit: cover;
+					object-position: center center;
+				}
+			}
+
+			.right {
+				width: 100%;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 28px;
+				align-items: flex-start;
+
+				h3 {
+					font-style: normal;
+					font-weight: 500;
+					font-size: 25px;
+					line-height: 140%;
+
+					letter-spacing: 0.02em;
+
+					color: #000000;
+				}
+
+				p {
+					font-style: normal;
+					font-weight: 500;
+					font-size: 17px;
+					line-height: 140%;
+					/* or 24px */
+
+					letter-spacing: 0.02em;
+
+					color: #000000;
+				}
+			}
+		}
+	}
+}

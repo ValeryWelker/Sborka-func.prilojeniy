@@ -1,0 +1,63 @@
+.order {
+  width: 100%;
+  border-collapse: collapse;
+
+  td,
+  p,
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+  }
+
+  td {
+    padding: 15px 30px;
+    text-align: left;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+  tbody {
+    width: 100%;
+
+    .product {
+      display: flex;
+
+      .left {
+        display: flex;
+        flex-direction: column;
+
+        .extras {
+          display: flex;
+          gap: 20px;
+
+          .color {
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+          }
+          .size {
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  //tfoot
+  tfoot {
+    background: #f1eadc;
+  }
+}

@@ -1,0 +1,56 @@
+.order {
+  width: 100%;
+  flex: 1 0 auto;
+  position: relative;
+  top: 80px;
+
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    > {
+      h1 {
+        margin: 70px 0;
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+
+      @media screen and (max-width: 778px) {
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .left {
+        flex: 0.5;
+        display: flex;
+      }
+
+      .right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        @media screen and (max-width: 778px) {
+          order: -1;
+          justify-content: center;
+        }
+
+        .own {
+          @media screen and (max-width: 778px) {
+            width: 100%;
+          }
+
+          > {
+            h3 {
+              margin-left: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

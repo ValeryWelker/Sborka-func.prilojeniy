@@ -1,0 +1,32 @@
+.filters {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	justify-content: center;
+
+	.filter {
+		border: 1px solid #000000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 19px 65px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 140%;
+		letter-spacing: 0.02em;
+		color: #000000;
+		cursor: pointer;
+		@media (max-width: 1110px) {
+			flex: 1;
+		}
+
+		&:hover,
+		&.active {
+			background: #000000;
+			color: #ffffff;
+		}
+	}
+}

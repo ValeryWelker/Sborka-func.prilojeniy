@@ -1,0 +1,63 @@
+.button {
+  white-space: nowrap;
+  min-width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 50px;
+  background: #6e9c9f;
+  color: #ffffff;
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 138.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background: #509498;
+  }
+
+  &.primary {
+    background: transparent;
+    color: #6e9c9f;
+    border: 1px solid #6e9c9f;
+
+    &:hover {
+      background: #6e9c9f;
+      color: #fff;
+    }
+  }
+
+  &.more {
+    background: transparent;
+    min-width: 0;
+    min-height: 24px;
+    padding: 0;
+    margin: 0;
+    color: #6e9c9f;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    position: relative;
+
+    &::after {
+      background-color: #cededf;
+      display: block;
+      content: "";
+      width: 0;
+      left: 0;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      transition: width 0.5s ease;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
